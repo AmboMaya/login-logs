@@ -1,0 +1,17 @@
+/* TailwindCSS */
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "./component.css";
+
+@import "tailwindcss/utilities";
+@import "utilities.css";
+/* End TailwindCSS */
+
+.centered {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
